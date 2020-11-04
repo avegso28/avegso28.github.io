@@ -1,0 +1,86 @@
+body {
+    background-color: RGB(0, 0, 255);
+    margin: 0; 
+}
+
+p {
+    background-color: rgb(0, 255, 255);
+    padding: 0 5px;
+}
+
+h1 {
+    color: rgb(255, 255, 0);
+
+}
+h2 {
+padding: 0 5px;
+color: rgb(255, 255, 0);
+}
+ul {
+    color: rgb(255, 255, 0);
+}
+.title_bar {
+    background-color: rgb(0, 100, 0);
+    margin: auto;
+    padding: 1% 0;
+    text-align: center;
+}
+
+.active {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 115, 0);}
+
+.nav_bar {
+    background-color: rgb(255, 115, 0);
+    display: block;
+    overflow: hidden;
+}
+.nav_links {
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav_links a {
+    display: block;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(255, 115, 0);
+    color: rgb(0,0,0);
+    float: left;
+}
+
+.nav_links a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 115, 0);
+    transition: .5s;
+}
+
+.active {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 115, 0);
+}
+
+.row {
+    display: flex;
+}
+
+.col40{
+flex: 4;
+padding: 0 5px;
+}
+
+.col50{
+    flex: 5;
+    padding: 0 5px;
+    }
+
+.col60{
+    flex: 6;
+    padding: 0 5px;
+    }
+
+.col100{
+    flex: 10;
+    padding: 0 5px;
+    }
