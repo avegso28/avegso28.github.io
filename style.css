@@ -65,22 +65,22 @@ ul {
     display: flex;
 }
 
-.col40{
+.col40 {
 flex: 4;
 padding: 0 5px;
 }
 
-.col50{
+.col50 {
     flex: 5;
     padding: 0 5px;
     }
 
-.col60{
+.col60 {
     flex: 6;
     padding: 0 5px;
     }
 
-.col100{
+.col100 {
     flex: 10;
     padding: 0 5px;
     }
